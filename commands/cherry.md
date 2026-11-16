@@ -1,0 +1,12 @@
+# git cherry
+
+## Usage
+
+```text
+usage: git cherry [-v] [<upstream> [<head> [<limit>]]]
+
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+    -v, --[no-]verbose    be verbose
+```
+
+See also: `git help cherry`.
