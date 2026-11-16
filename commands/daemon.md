@@ -1,0 +1,20 @@
+# git daemon
+
+## Usage
+
+```text
+usage: git daemon [--verbose] [--syslog] [--export-all]
+           [--timeout=<n>] [--init-timeout=<n>] [--max-connections=<n>]
+           [--strict-paths] [--base-path=<path>] [--base-path-relaxed]
+           [--user-path | --user-path=<path>]
+           [--interpolated-path=<path>]
+           [--reuseaddr] [--pid-file=<file>]
+           [--(enable|disable|allow-override|forbid-override)=<service>]
+           [--access-hook=<path>]
+           [--inetd | [--listen=<host_or_ipaddr>] [--port=<n>]
+                      [--detach] [--user=<user> [--group=<group>]]
+           [--log-destination=(stderr|syslog|none)]
+           [<directory>...]
+```
+
+See also: `git help daemon`.
