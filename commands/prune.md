@@ -1,0 +1,17 @@
+# git prune
+
+## Usage
+
+```text
+usage: git prune [-n] [-v] [--progress] [--expire <time>] [--] [<head>...]
+
+    -n, --[no-]dry-run    do not remove, show only
+    -v, --[no-]verbose    report pruned objects
+    --[no-]progress       show progress
+    --[no-]expire <expiry-date>
+                          expire objects older than <time>
+    --[no-]exclude-promisor-objects
+                          limit traversal to objects outside promisor packfiles
+```
+
+See also: `git help prune`.
