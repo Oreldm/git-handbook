@@ -1,0 +1,17 @@
+# git commit-tree
+
+## Usage
+
+```text
+usage: git commit-tree <tree> [(-p <parent>)...]
+   or: git commit-tree [(-p <parent>)...] [-S[<keyid>]] [(-m <message>)...]
+                       [(-F <file>)...] <tree>
+
+    -p <parent>           id of a parent commit object
+    -m <message>          commit message
+    -F <file>             read commit log message from file
+    -S, --[no-]gpg-sign[=<key-id>]
+                          GPG sign commit
+```
+
+See also: `git help commit-tree`.
