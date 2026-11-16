@@ -1,0 +1,13 @@
+# git patch-id
+
+## Usage
+
+```text
+usage: git patch-id [--stable | --unstable | --verbatim]
+
+    --unstable            use the unstable patch-id algorithm
+    --stable              use the stable patch-id algorithm
+    --verbatim            don't strip whitespace from the patch
+```
+
+See also: `git help patch-id`.
