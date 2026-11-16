@@ -1,0 +1,16 @@
+# git commit-graph
+
+## Usage
+
+```text
+usage: git commit-graph verify [--object-dir <dir>] [--shallow] [--[no-]progress]
+   or: git commit-graph write [--object-dir <dir>] [--append]
+                              [--split[=<strategy>]] [--reachable | --stdin-packs | --stdin-commits]
+                              [--changed-paths] [--[no-]max-new-filters <n>] [--[no-]progress]
+                              <split-options>
+
+    --[no-]object-dir <dir>
+                          the object directory to store the graph
+```
+
+See also: `git help commit-graph`.
