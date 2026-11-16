@@ -1,0 +1,17 @@
+# git pack-refs
+
+## Usage
+
+```text
+usage: git pack-refs [--all] [--no-prune] [--auto] [--include <pattern>] [--exclude <pattern>]
+
+    --[no-]all            pack everything
+    --[no-]prune          prune loose refs (default)
+    --[no-]auto           auto-pack refs as needed
+    --[no-]include <pattern>
+                          references to include
+    --[no-]exclude <pattern>
+                          references to exclude
+```
+
+See also: `git help pack-refs`.
