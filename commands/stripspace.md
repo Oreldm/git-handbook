@@ -1,0 +1,13 @@
+# git stripspace
+
+## Usage
+
+```text
+usage: git stripspace [-s | --strip-comments]
+   or: git stripspace [-c | --comment-lines]
+
+    -s, --strip-comments  skip and remove all lines starting with comment character
+    -c, --comment-lines   prepend comment character and space to each line
+```
+
+See also: `git help stripspace`.
