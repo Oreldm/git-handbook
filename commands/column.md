@@ -1,0 +1,18 @@
+# git column
+
+## Usage
+
+```text
+usage: git column [<options>]
+
+    --[no-]command <name> lookup config vars
+    --[no-]mode[=<style>] layout to use
+    --raw-mode <n>        layout to use
+    --[no-]width <n>      maximum width
+    --[no-]indent <string>
+                          padding space on left border
+    --[no-]nl <string>    padding space on right border
+    --[no-]padding <n>    padding space between columns
+```
+
+See also: `git help column`.
