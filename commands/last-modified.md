@@ -1,0 +1,12 @@
+# git last-modified
+
+## Usage
+
+```text
+usage: git last-modified [--recursive] [--show-trees] [<revision-range>] [[--] <path>...]
+
+    -r, --[no-]recursive  recurse into subtrees
+    -t, --[no-]show-trees show tree entries when recursing into subtrees
+```
+
+See also: `git help last-modified`.
