@@ -1,0 +1,13 @@
+# git rev-parse
+
+## Usage
+
+```text
+usage: git rev-parse --parseopt [<options>] -- [<args>...]
+   or: git rev-parse --sq-quote [<arg>...]
+   or: git rev-parse [<options>] [<arg>...]
+
+Run "git rev-parse --parseopt -h" for more information on the first usage.
+```
+
+See also: `git help rev-parse`.
